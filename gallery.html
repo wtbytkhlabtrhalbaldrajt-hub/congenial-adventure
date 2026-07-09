@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>معرض الصور - LIBRE PRODUCTION</title>
 
+<style>
+body{
+background:#111;
+color:white;
+font-family:Arial,sans-serif;
+margin:0;
+text-align:center;
+}
+
+h1{
+padding:30px;
+color:gold;
+}
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:20px;
+}
+
+.gallery img{
+width:300px;
+height:220px;
+object-fit:cover;
+border-radius:15px;
+border:3px solid gold;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+a{
+display:inline-block;
+margin:30px;
+padding:12px 25px;
+background:gold;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>📸 معرض أعمال LIBRE PRODUCTION</h1>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/300/220?1">
+<img src="https://picsum.photos/300/220?2">
+<img src="https://picsum.photos/300/220?3">
+<img src="https://picsum.photos/300/220?4">
+<img src="https://picsum.photos/300/220?5">
+<img src="https://picsum.photos/300/220?6">
+
+</div>
+
+<a href="index.html">🏠 العودة للرئيسية</a>
+
+</body>
+</html>
