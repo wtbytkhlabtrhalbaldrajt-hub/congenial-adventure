@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,55 +14,82 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#000;
+background:#0d0d0d;
 color:white;
 }
 
 header{
 background:#111;
-padding:20px;
+padding:30px;
 text-align:center;
+border-bottom:2px solid gold;
 }
 
 header h1{
-color:#d4af37;
-font-size:40px;
+font-size:45px;
+color:gold;
 }
 
 header p{
-color:#ddd;
 margin-top:10px;
+color:#ccc;
 }
 
 .hero{
 height:80vh;
 display:flex;
+flex-direction:column;
 justify-content:center;
 align-items:center;
-flex-direction:column;
 text-align:center;
-background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+padding:20px;
 }
 
 .hero h2{
-font-size:50px;
-color:#d4af37;
+font-size:40px;
+color:gold;
 }
 
 .hero p{
 margin-top:20px;
 font-size:20px;
+max-width:700px;
 }
 
-.btn{
-display:inline-block;
+button{
 margin-top:30px;
 padding:15px 35px;
-background:#d4af37;
+border:none;
+background:gold;
 color:black;
-text-decoration:none;
-font-weight:bold;
-border-radius:8px;
+font-size:18px;
+border-radius:30px;
+cursor:pointer;
+}
+
+section{
+padding:50px 20px;
+}
+
+.card{
+background:#1a1a1a;
+padding:25px;
+margin:20px auto;
+border-radius:15px;
+max-width:700px;
+}
+
+.card h3{
+color:gold;
+margin-bottom:10px;
+}
+
+footer{
+background:#111;
+padding:30px;
+text-align:center;
+margin-top:40px;
+color:#bbb;
 }
 </style>
 
@@ -75,15 +102,27 @@ border-radius:8px;
 <p>Photography • Videography • Creativity</p>
 </header>
 
-<section class="hero">
-<h2>Capture Every Moment</h2>
-<p>نحوّل اللحظات إلى ذكريات لا تُنسى</p>
+<div class="hero">
+<h2>مرحبًا بكم في Libre Production</h2>
+<p>
+نحوّل اللحظات الجميلة إلى ذكريات لا تُنسى من خلال التصوير الفوتوغرافي والفيديو الاحترافي.
+</p>
 
-<a href="#" class="btn">
-استكشف أعمالنا
-</a>
+<button>استكشف أعمالنا</button>
+</div>
 
-</section>
+<section>
 
-</body>
-</html>
+<div class="card">
+<h3>📸 التصوير الفوتوغرافي</h3>
+<p>تصوير الأعراس، الخطوبة، الطبيعة، والفعاليات.</p>
+</div>
+
+<div class="card">
+<h3>🎥 تصوير الفيديو</h3>
+<p>فيديوهات سينمائية بجودة عالية.</p>
+</div>
+
+<div class="card">
+<h3>📞 تواصل معنا</h3>
+<p>اله
